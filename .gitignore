@@ -1,0 +1,8 @@
+@'
+.DS_Store
+__pycache__/
+*.pyc
+vfs_dump.json
+multi_out.json
+out.json
+'@ | Out-File -Encoding utf8 .gitignoregit

@@ -1,0 +1,17 @@
+{
+  "type": "dir",
+  "children": {
+    "home": {
+      "type": "dir",
+      "children": {
+        "anton_xax": {"type": "dir", "children": {}},
+        "user": {
+          "type": "dir",
+          "children": {
+            "hello.txt": {"type": "file", "content": "hi\n"}
+          }
+        }
+      }
+    }
+  }
+}

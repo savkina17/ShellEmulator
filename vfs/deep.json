@@ -1,0 +1,34 @@
+{
+  "type": "dir",
+  "children": {
+    "home": {
+      "type": "dir",
+      "children": {
+        "user": {
+          "type": "dir",
+          "children": {
+            "projects": {
+              "type": "dir",
+              "children": {
+                "alpha": {
+                  "type": "dir",
+                  "children": {
+                    "src": {
+                      "type": "dir",
+                      "children": {
+                        "main.c": {"type": "file", "content": "int main(){return 0;}\n"},
+                        "util.c": {"type": "file", "content": "// util\n"}
+                      }
+                    },
+                    "README.md": {"type": "file", "content": "# alpha\n"}
+                  }
+                },
+                "beta": {"type": "dir", "children": {}}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
